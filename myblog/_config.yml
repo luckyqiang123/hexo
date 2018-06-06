@@ -5,7 +5,7 @@
 # Site
 title: 张志强的博客
 subtitle:
-description:
+description: World is powered by solitude
 keywords:
 author: luckyqiang
 avatar: /images/avatar.jpg
@@ -29,9 +29,19 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+#search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+
 #live2d
 live2d:
   enable: true
+  model:
+    use: live2d-widget-model-koharu
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
