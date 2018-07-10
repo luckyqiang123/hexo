@@ -1,3 +1,11 @@
+---
+title: Spring Boot笔记
+tags:
+  - Spring Boot
+  - Another Tag
+categories: Spring Boot
+---
+
 # 一、Spring Boot 入门
 
 ## 1、Spring Boot 简介
@@ -22,7 +30,7 @@
 
 [详细参照微服务文档](https://martinfowler.com/articles/microservices.html#MicroservicesAndSoa)
 
-
+<!-- more --> 
 
 ## 3、环境准备
 
